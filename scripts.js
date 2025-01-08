@@ -23,16 +23,22 @@ const libros = [
         formato: 'PDF, 3.5 MB'
     },
     {
-        name: 'Node.js Javascript del ldo del servidor',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/72aaa264e6d6a61882d3743d4e27b7d6beeab37283553f0e427194cf4fcd1afd.jpg',
-        enlace: 'https://raw.githubusercontent.com/braian004/BIBLIOTECA-GRATIS/master/Libro/Node.js%20Javascript%20del%20lado%20del%20servidor%20(Ismael%20L%C3%B3pez%20Quintero)%20(Z-Library).pdf',
-        formato: 'PDF, 3.5 MB'
+        name: 'Mark as downloadedDescargado Estadística Práctica para Ciencia de Datos con R y Python',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/62f90066265f19b7ab9c68109ad31eb2c1bea1818a986e100be490ba0318036a.jpg',
+        enlace: 'https://drive.google.com/file/d/1YsbS82YTBDOOlnUMo6JSW_ogZUtnyuWU/view?usp=sharing',
+        formato: 'PDF, 20.17 MB'
     },
     {
         name: 'La biblia del mysql',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/72aaa264e6d6a61882d3743d4e27b7d6beeab37283553f0e427194cf4fcd1afd.jpg',
-        enlace: 'https://raw.githubusercontent.com/braian004/BIBLIOTECA-GRATIS/master/Libro/Node.js%20Javascript%20del%20lado%20del%20servidor%20(Ismael%20L%C3%B3pez%20Quintero)%20(Z-Library).pdf',
-        formato: 'PDF, 3.5 MB'
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/e7b274ed2c4422cf3c3a4475380f0b9277655d16214dd048f688263021910aa8.jpg',
+        enlace: 'https://drive.google.com/uc?id=1rNoOxprukY-brlOBwPctMu4YDqS-x4Xg&export=download',
+        formato: 'PDF, 42.91 MB'
+    },
+    {
+        name: 'La biblia del mysql',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b608266a78f468a018f0ecef81d5e36a541a5ad867840fcb0486972d57f8f850.jpg',
+        enlace: 'https://drive.google.com/uc?id=1lRGkJwhyog7va6aNOv_RVqcVxgjQmOn7&export=download',
+        formato: 'PDF, 1.73 MB'
     }
     
     // https://github.com/braian004/Biblioteca.git
