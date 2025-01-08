@@ -41,9 +41,9 @@ const libros = [
         formato: 'PDF, 1.73 MB'
     },
     {
-        name: 'Ofertas de 100 M$',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b608266a78f468a018f0ecef81d5e36a541a5ad867840fcb0486972d57f8f850.jpg',
-        enlace: 'https://drive.google.com/uc?id=1lRGkJwhyog7va6aNOv_RVqcVxgjQmOn7&export=download',
+        name: 'CEM_guia_nuevas_tendencias_en_ventas_w.pdf',
+        imagen: 'https://valledelguadalhorce.org/wp-content/uploads/2023/12/Guia-Nuevas-tendencias-en-ventas-1080x675.webp',
+        enlace: "https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/CEM_guia_nuevas_tendencias_en_ventas_w.pdf",
         formato: 'PDF, 1.73 MB'
     }
     
