@@ -42,7 +42,7 @@ const libros = [
     },
     {
         name: 'CEM_guia_nuevas_tendencias_en_ventas_w.pdf',
-        imagen: 'https://valledelguadalhorce.org/wp-content/uploads/2023/12/Guia-Nuevas-tendencias-en-ventas-1080x675.webp',
+        imagen: 'https://valledelguadalhorce.org/wp-content/uploads/2023/12/Guia-Nuevas-tendencias-en-ventas-108x675.webp',
         enlace: "https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/CEM_guia_nuevas_tendencias_en_ventas_w.pdf",
         formato: 'PDF, 1.73 MB'
     }
