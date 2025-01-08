@@ -25,7 +25,7 @@ const libros = [
     {
         name: 'Estadística Práctica para Ciencia de Datos con R y Python',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/62f90066265f19b7ab9c68109ad31eb2c1bea1818a986e100be490ba0318036a.jpg',
-        enlace: 'https://drive.google.com/file/d/1YsbS82YTBDOOlnUMo6JSW_ogZUtnyuWU/view?usp=sharing',
+        enlace: 'https://drive.google.com/uc?id=1YsbS82YTBDOOlnUMo6JSW_ogZUtnyuWU&export=download',
         formato: 'PDF, 20.17 MB'
     },
     {
