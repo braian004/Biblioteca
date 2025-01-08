@@ -23,7 +23,7 @@ const libros = [
         formato: 'PDF, 3.5 MB'
     },
     {
-        name: 'Mark as downloadedDescargado Estadística Práctica para Ciencia de Datos con R y Python',
+        name: 'Estadística Práctica para Ciencia de Datos con R y Python',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/62f90066265f19b7ab9c68109ad31eb2c1bea1818a986e100be490ba0318036a.jpg',
         enlace: 'https://drive.google.com/file/d/1YsbS82YTBDOOlnUMo6JSW_ogZUtnyuWU/view?usp=sharing',
         formato: 'PDF, 20.17 MB'
@@ -35,7 +35,13 @@ const libros = [
         formato: 'PDF, 42.91 MB'
     },
     {
-        name: 'La biblia del mysql',
+        name: 'Ofertas de 100 M$',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b608266a78f468a018f0ecef81d5e36a541a5ad867840fcb0486972d57f8f850.jpg',
+        enlace: 'https://drive.google.com/uc?id=1lRGkJwhyog7va6aNOv_RVqcVxgjQmOn7&export=download',
+        formato: 'PDF, 1.73 MB'
+    },
+    {
+        name: 'Ofertas de 100 M$',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b608266a78f468a018f0ecef81d5e36a541a5ad867840fcb0486972d57f8f850.jpg',
         enlace: 'https://drive.google.com/uc?id=1lRGkJwhyog7va6aNOv_RVqcVxgjQmOn7&export=download',
         formato: 'PDF, 1.73 MB'
