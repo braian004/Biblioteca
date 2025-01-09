@@ -40,3 +40,14 @@ body {
 .libro-item a:hover {
     background-color: #0056b3;
 }
+.img-horizontal img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Se ajusta al contenedor sin deformarse */
+}
+
+.img-vertical img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
