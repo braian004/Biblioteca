@@ -60,7 +60,7 @@ const libros = [
     },
     {
         name: 'El arte de hacer dinero',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/e45c9204ba839ebb8df0e206107ce9e66549a7c8d47881c834bf764d0f9b55b5.jpg',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/userbooks/e45c9204ba839ebb8df0e206107ce9e66549a7c8d47881c834bf764d0f9b55b5.jpg',
         enlace: "https://raw.githubusercontent.com/braian004/book/main/27-12-24/El%20arte%20de%20hacer%20dinero.pdf",
         formato: 'PDF, 751 KB'
     }
