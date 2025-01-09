@@ -42,7 +42,7 @@ const libros = [
     },
     {
         name: 'CEM_guia_nuevas_tendencias_en_ventas_w.pdf',
-        imagen: '',
+        imagen: 'https://raw.githubusercontent.com/braian004/Biblioteca/main/img/portada.jpg',
         enlace: "https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/CEM_guia_nuevas_tendencias_en_ventas_w.pdf",
         formato: 'PDF, 1.73 MB'
     },
@@ -51,6 +51,12 @@ const libros = [
         imagen: 'https://s3proxy.cdn-zlib.sk/covers300/collections/genesis/3467b1dd558fb003de7998f920632301b43e7588ad8a8c56efea79c09573f46a.jpg',
         enlace: " https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/Como%20Ganar%20Amigos%20E%20Influir%20Sobre%20Las%20Personas%20-%20Dale%20Carnegie.pdf",
         formato: 'PDF, 1.40 MB'
+    },
+    {
+        name: 'aprende SQL en un fin de semana',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b0fcf0e94d3918706e12a25af0e51f08ebe7af994c661e06d8698825d59611ac.jpg',
+        enlace: "https://raw.githubusercontent.com/braian004/book/main/27-12-24/Aprende%20SQL%20en%20un%20Fin%20de%20Semana.pdf",
+        formato: 'PDF, 8.40 MB'
     },
     {
         name: 'aprende SQL en un fin de semana',
