@@ -42,7 +42,7 @@ const libros = [
     },
     {
         name: 'CEM_guia_nuevas_tendencias_en_ventas_w.pdf',
-        imagen: 'https://raw.githubusercontent.com/braian004/Biblioteca/main/img/portada.jpg',
+        imagen: 'https://raw.githubusercontent.com/braian004/Biblioteca/main/img/Captura%20de%20pantalla%202025-01-09%20044556.jpg',
         enlace: "https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/CEM_guia_nuevas_tendencias_en_ventas_w.pdf",
         formato: 'PDF, 1.73 MB'
     },
