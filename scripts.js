@@ -42,11 +42,18 @@ const libros = [
     },
     {
         name: 'CEM_guia_nuevas_tendencias_en_ventas_w.pdf',
-        imagen: 'https://valledelguadalhorce.org/wp-content/uploads/2023/12/Guia-Nuevas-tendencias-en-ventas-108x675.webp',
+        imagen: '',
         enlace: "https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/CEM_guia_nuevas_tendencias_en_ventas_w.pdf",
         formato: 'PDF, 1.73 MB'
+    },
+    {
+        name: 'Como Ganar Amigos E Influir Sobre Las Personas',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers300/collections/genesis/3467b1dd558fb003de7998f920632301b43e7588ad8a8c56efea79c09573f46a.jpg',
+        enlace: " https://raw.githubusercontent.com/braian004/book/main/4-01-2'24/Como%20Ganar%20Amigos%20E%20Influir%20Sobre%20Las%20Personas%20-%20Dale%20Carnegie.pdf",
+        formato: 'PDF, 1.30 MB'
     }
-    
+
+
     // https://github.com/braian004/Biblioteca.git
     // https://raw.githubusercontent.com/ --> para descarga directa 
 ];
