@@ -59,10 +59,10 @@ const libros = [
         formato: 'PDF, 8.40 MB'
     },
     {
-        name: 'aprende SQL en un fin de semana',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/b0fcf0e94d3918706e12a25af0e51f08ebe7af994c661e06d8698825d59611ac.jpg',
-        enlace: "https://raw.githubusercontent.com/braian004/book/main/27-12-24/Aprende%20SQL%20en%20un%20Fin%20de%20Semana.pdf",
-        formato: 'PDF, 8.40 MB'
+        name: 'El arte de hacer dinero',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/e45c9204ba839ebb8df0e206107ce9e66549a7c8d47881c834bf764d0f9b55b5.jpg',
+        enlace: "https://raw.githubusercontent.com/braian004/book/main/27-12-24/El%20arte%20de%20hacer%20dinero.pdf",
+        formato: 'PDF, 751 KB'
     }
 
     // https://github.com/braian004/Biblioteca.git
