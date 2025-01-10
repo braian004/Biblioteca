@@ -79,32 +79,50 @@ const libros = [
     {
         name: 'Python para todos',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/faf46d67a0f1b28f10dba8e78cb0aba563295d412fee7ba95d1da2542ccd6144.jpg',
-        enlace: "https://drive.google.com/file/d/12lmCf4JoPLoXWksiFFCtSvZuSySBQxhC/view?usp=sharing",
+        enlace: "https://drive.google.com/uc?export=download&id=12lmCf4JoPLoXWksiFFCtSvZuSySBQxhC",
         formato: 'PDF, !.21 MB'
     },
     {
         name: 'Arduino Curso Practico de Formacion',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/e78d605334d15f7cd11240ef01f3723cba10112679beb3f7688b060e00ec6e5c.jpg',
-        enlace: "https://drive.google.com/file/d/1ZLuTNe4AG_8KgC9KqLRKRqXa5dvBOETW/view?usp=sharing",
+        enlace: "https://drive.google.com/uc?export=download&id=1ZLuTNe4AG_8KgC9KqLRKRqXa5dvBOETW",
         formato: 'PDF, 7.21 MB'
     },
     {
         name: 'Python con aplicaciones a las matemáticas, ingeniería y finanzas',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/userbooks/c56f837b407ab2e0520538e44f30d5e068e77e34c3736f4aa2a1c5c74c6da50b.jpg',
-        enlace: "https://drive.google.com/file/d/1xCRlcHXBW0nwLBG5h4EcRZvli4r9_8rO/view?usp=sharing",
+        enlace: "https://drive.google.com/uc?export=download&id=1xCRlcHXBW0nwLBG5h4EcRZvli4r9_8rO",
         formato: 'PDF, 44.26 MB'
     },
     {
         name: 'Aprende Machine Learning',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/5c3dd6991f907dbf51c46993f1178bb4c1b56b1229c23dd058c689ef50cefc18.jpg',
-        enlace: "https://drive.google.com/file/d/19i2YQFmAPiwzW_pTfI_p_FhsrjFr7vs_/view?usp=sharing",
+        enlace: "https://drive.google.com/uc?export=download&id=19i2YQFmAPiwzW_pTfI_p_FhsrjFr7vs_",
         formato: 'PDF, 15.66 MB'
     },
     {
         name: 'Python para análisis de datos',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/5ee7233bcbcd8f216f64b01aa29b97d1e48a3bceea0fee83331c03959c8e5dc3.jpg',
-        enlace: "https://drive.google.com/file/d/1OiDX_IYjQdw5vlgBNSG_wUUOdqzQVmgz/view?usp=sharing",
+        enlace: "https://drive.google.com/uc?export=download&id=1OiDX_IYjQdw5vlgBNSG_wUUOdqzQVmgz",
         formato: 'PDF, 15.99 MB'
+    },
+    {
+        name: 'Algoritmos y estructuras de datos en Python ',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/0997d1e5b726ecb39b06572e0bc8982ee71b8622026c1052e4c1c096d26d078d.jpg',
+        enlace: "https://drive.google.com/uc?export=download&id=1nR-Q-VL41ZFfvdzrgmdBaxDxtIlsYrS9",
+        formato: 'PDF, 6.2 MB'
+    },
+    {
+        name: 'Big data con Python  recolección, almacenamiento',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/ee2e04417a228e5d7ea96e3986a0b589c8b98d477f7b8e9a407d590e3a28c400.jpg',
+        enlace: "https://drive.google.com/uc?export=download&id=1_Y82omddRYob6VZsKJhzZp7PM3Blztb2",
+        formato: 'PDF, 16.66 MB'
+    },
+    {
+        name: 'Inteligencia_de_negocios',
+        imagen: '',
+        enlace: "https://drive.google.com/uc?export=download&id=1JHaD4J-ZdLWUtFK5yUUGt62Dd78C-HlV",
+        formato: 'PDF, 2.7 MB'
     }
  
     // https://github.com/braian004/Biblioteca.git
