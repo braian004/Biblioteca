@@ -69,8 +69,14 @@ const libros = [
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/dd94364675d4a6168a0f3421bc01860ff15de5dc2e23a8fccf7212de6780176e.jpg',
         enlace: "https://drive.google.com/file/d/1BUAtj1oVfdaP18CyBtT15sQqNrSxeumb/view?usp=sharing",
         formato: 'PDF, 1002 KB'
+    },
+    {
+        name: 'Piensa y hagase rico',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/userbooks/f71f934cc61bdf01dcef39754310261337f1b495e593e0561bc0015234722e46.jpg',
+        enlace: "https://drive.google.com/file/d/19Oj5ghfVO8slTecUCLLb7HCQx7QxBL90/view?usp=sharing",
+        formato: 'PDF, 1002 KB'
     }
-
+ 
     // https://github.com/braian004/Biblioteca.git
     // https://raw.githubusercontent.com/ --> para descarga directa 
 ];
