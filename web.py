@@ -1,33 +1,54 @@
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.edge.service import Service
+
+# Ruta del perfil de navegador de Edge
+user_profile = r"C:\Users\Tito\AppData\Local\Microsoft\Edge\User Data"
 
 # Configuración de Selenium
-service = Service(r'C:\Users\Tito\Desktop\PROYECTOS\BIBLIOTECA\msedgedriver.exe')
+service = Service(r'msedgedriver.exe')
 options = webdriver.EdgeOptions()
+options.add_argument(f"user-data-dir={user_profile}")
+options.add_argument("profile-directory=Default")  # Cambiar si usas otro perfil, como "Profile 1"
+
+# Inicializar WebDriver
 driver = webdriver.Edge(service=service, options=options)
 
-# URL del libro
-url = "https://es.z-lib.gs/book/5451386/310399/fundamentos-de-sql.html?dsource=recommend"
-
-# Cargar la página
+# URL de la carpeta en Google Drive
+url = "https://drive.google.com/drive/u/1/folders/1jC7XtcninLzTyqauk2dK2DPRko_elzVS"
 driver.get(url)
 
 try:
-    # Esperar al elemento del enlace de descarga
-    download_link_element = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CLASS_NAME, 'addDownloadedBook'))
+    # Esperar que la página cargue completamente
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.CLASS_NAME, 'a-s-T'))  # Asegurarse de estar dentro de la carpeta de Drive
     )
-    # Extraer el enlace de descarga más reciente
-    download_link = download_link_element.get_attribute('href')
-    print(f"Enlace dinámico extraído: {download_link}")
+    print("Sesión cargada correctamente. Accediendo al contenido de la carpeta...")
+
+    # Realizar web scraping: Extraer los textos o enlaces
+    files = driver.find_elements(By.CLASS_NAME, 'Q5txwe')  # Cambiar si el selector de archivos difiere
+    for file in files:
+        print(f"Archivo encontrado: {file.text}")
+
+    # Simular clic en un botón (como hacer un archivo público)
+    # Si el botón está visible
+    make_public_button = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, '//button[@aria-label="Compartir"]'))  # Cambiar según el selector
+    )
+    make_public_button.click()
+
+    # Esperar que cargue la ventana de compartir y seleccionar "Hacer público"
+    public_option = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.XPATH, '//*[text()="Cualquier persona con el enlace"]'))
+    )
+    public_option.click()
+    print("Archivo configurado como público con éxito.")
+
 except Exception as e:
-    print(f"Error al obtener el enlace de descarga: {e}")
+    print(f"Error: {e}")
 finally:
-    input("Presiona Enter para salir y cerrar el navegador...")
+    # Cerrar navegador
     driver.quit()
-
-
-# es.z-lib.gs/dl/5451386/289594?dsource=recommend

@@ -9,7 +9,7 @@ service = Service(r'C:\Users\Tito\Desktop\PROYECTOS\BIBLIOTECA\msedgedriver.exe'
 driver = webdriver.Edge(service=service)
 
 # Ingresar URL
-url = 'https://es.z-lib.gs/book/18183287/e4c2e7/python-a-fondo.html?dsource=recommend'
+url = 'https://drive.google.com/drive/u/1/folders/1jC7XtcninLzTyqauk2dK2DPRko_elzVS'
 driver.get(url)
 
 # Usar espera explícita para esperar que los elementos estén completamente cargados
