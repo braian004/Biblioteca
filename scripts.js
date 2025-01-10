@@ -120,7 +120,7 @@ const libros = [
     },
     {
         name: 'Inteligencia_de_negocios',
-        imagen: '',
+        imagen: 'https://raw.githubusercontent.com/braian004/Biblioteca/main/img/Captura%20de%20pantalla%202025-01-10%20145636.jpg',
         enlace: "https://drive.google.com/uc?export=download&id=1JHaD4J-ZdLWUtFK5yUUGt62Dd78C-HlV",
         formato: 'PDF, 2.7 MB'
     }
