@@ -74,7 +74,7 @@ const libros = [
         name: 'Piensa y hagase rico',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/userbooks/f71f934cc61bdf01dcef39754310261337f1b495e593e0561bc0015234722e46.jpg',
         enlace: "https://drive.google.com/file/d/19Oj5ghfVO8slTecUCLLb7HCQx7QxBL90/view?usp=sharing",
-        formato: 'PDF, 1002 KB'
+        formato: 'PDF, 1.04 MB'
     }
  
     // https://github.com/braian004/Biblioteca.git
