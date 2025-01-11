@@ -123,8 +123,44 @@ const libros = [
         imagen: 'https://raw.githubusercontent.com/braian004/Biblioteca/main/img/Captura%20de%20pantalla%202025-01-10%20145636.jpg',
         enlace: "https://drive.google.com/uc?export=download&id=1JHaD4J-ZdLWUtFK5yUUGt62Dd78C-HlV",
         formato: 'PDF, 2.7 MB'
+    },
+    {
+        name: 'Guía práctica de análisis de datos',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/4123d23ecd4a2d3801a44c4ba076b430ce23ea8d32b547b86a8414d0aba9d3ec.jpg',
+        enlace: "https://drive.google.com/uc?export=download&id=1u2wmYa_hXHoEhjuKdFm08_PbKH6MP6l_",
+        formato: 'PDF, 2.57 MB'
+    },
+    {
+        name: 'Excel para los negocios',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/5d3507ba386f1f73c52f6ad3a77c444663967ec81acb614da3c1d07662a142fb.jpg',
+        enlace: "",
+        formato: 'PDF, 2.7 MB'
+    },
+    {
+        name: 'El Plan De Marketing Digital',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/ea3ac5562af7eb30b8e7d651b7935e515a45a7dd0ab19d4bc00594145aa5ec22.jpg',
+        enlace: "",
+        formato: 'PDF, 4.71 MB'
+    },
+    {
+        name: 'La Vía rápida del millonario',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/genesis/4433bd3d1af15b9c7c356b7b2b35fbf6910acd9f51740c2665a703f879050b6b.jpg',
+        enlace: "",
+        formato: 'PDF, 4.71 MB'
+    },
+    {
+        name: 'Retirate Joven y Rico',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/6e67ff85c0fcb363b3fcc1deacd6fb61b9d611bfa77b2ce7d35dafa87aa6077a.jpg',
+        enlace: "",
+        formato: 'PDF, 30.12 MB'
+    },
+    {
+        name: 'Aprende SQL en menos de 20 horas',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/048c7c4e0e042867949e4b84026d0e820f6e55a814d3e9aad5e744b32209c323.jpg',
+        enlace: "",
+        formato: 'PDF, 3.66 MB'
     }
- 
+
     // https://github.com/braian004/Biblioteca.git
     // https://raw.githubusercontent.com/ --> para descarga directa 
 ];
