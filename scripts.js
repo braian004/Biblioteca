@@ -159,7 +159,14 @@ const libros = [
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/048c7c4e0e042867949e4b84026d0e820f6e55a814d3e9aad5e744b32209c323.jpg',
         enlace: "",
         formato: 'PDF, 3.66 MB'
+    },
+    {
+        name: 'Inteligencia de negocios y analítica de datos una vision global de business intelligence & analytics',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/d63b941d078c0427a500813c1344721f56554737d6f205ada9c571255d777242.jpg"',
+        enlace: "",
+        formato: 'PDF, 121 MB'
     }
+
 
     // https://github.com/braian004/Biblioteca.git
     // https://raw.githubusercontent.com/ --> para descarga directa 
