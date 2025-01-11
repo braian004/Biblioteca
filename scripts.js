@@ -133,38 +133,38 @@ const libros = [
     {
         name: 'Excel para los negocios',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/5d3507ba386f1f73c52f6ad3a77c444663967ec81acb614da3c1d07662a142fb.jpg',
-        enlace: "",
+        enlace: "https://drive.google.com/uc?export=download&id=1ZtxfF6sfARRGHaAKjqjSePjvMbHgq3VU",
         formato: 'PDF, 2.7 MB'
     },
     {
         name: 'El Plan De Marketing Digital',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/ea3ac5562af7eb30b8e7d651b7935e515a45a7dd0ab19d4bc00594145aa5ec22.jpg',
-        enlace: "",
+        enlace: "https://drive.google.com/uc?export=download&id=17ZifFMo63uXXgqFNHZvqdrUJjc3h2roJ",
         formato: 'PDF, 4.71 MB'
     },
     {
         name: 'La Vía rápida del millonario',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/genesis/4433bd3d1af15b9c7c356b7b2b35fbf6910acd9f51740c2665a703f879050b6b.jpg',
-        enlace: "",
+        enlace: "https://drive.google.com/uc?export=download&id=1UrZebHsJ7B77myrrpBSo4FxqUd98CCO8",
         formato: 'PDF, 4.71 MB'
     },
     {
         name: 'Retirate Joven y Rico',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/6e67ff85c0fcb363b3fcc1deacd6fb61b9d611bfa77b2ce7d35dafa87aa6077a.jpg',
-        enlace: "",
+        enlace: "https://drive.google.com/uc?export=download&id=1-JzdMG2kmIk-uPuF1jB4eRlvNGNii4pJ",
         formato: 'PDF, 30.12 MB'
     },
     {
         name: 'Aprende SQL en menos de 20 horas',
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/048c7c4e0e042867949e4b84026d0e820f6e55a814d3e9aad5e744b32209c323.jpg',
-        enlace: "",
+        enlace: "https://drive.google.com/uc?export=download&id=1SmrYtyxG3SPXxX3vzIK8Qu96SoCEpaai",
         formato: 'PDF, 3.66 MB'
     },
     {
-        name: 'Inteligencia de negocios y analítica de datos una vision global de business intelligence & analytics',
-        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/genesis/d63b941d078c0427a500813c1344721f56554737d6f205ada9c571255d777242.jpg"',
-        enlace: "",
-        formato: 'PDF, 121 MB'
+        name: 'Python paso a paso',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/eda925a2fb89daa2ca868f897dcda7a2c766bf45037d6947d77c325585d184d4.jpg',
+        enlace: "https://drive.google.com/uc?export=download&id=1KPtLe8ZlqOWLwmiXaMTuCt-bIE0wblnm",
+        formato: 'PDF, 3.80 MB'
     }
 
 
