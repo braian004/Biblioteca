@@ -165,6 +165,12 @@ const libros = [
         imagen: 'https://s3proxy.cdn-zlib.sk/covers400/collections/userbooks/eda925a2fb89daa2ca868f897dcda7a2c766bf45037d6947d77c325585d184d4.jpg',
         enlace: "https://drive.google.com/uc?export=download&id=1KPtLe8ZlqOWLwmiXaMTuCt-bIE0wblnm",
         formato: 'PDF, 3.80 MB'
+    },
+    {
+        name: 'KPIs útiles Diseña Indicadores operativos que realmente sirvan para mejorar',
+        imagen: 'https://s3proxy.cdn-zlib.sk/covers1000/collections/genesis/42318a8bd1193170b67de6fc8ad9149326f35a2fac6f81c7489df850974bd27a.jpg',
+        enlace: "https://drive.google.com/uc?export=download&id=1SalNPe5MuJlSitR49BzEoSvz7SVpT7hp",
+        formato: 'PDF, 23.18 MB'
     }
 
 
